@@ -13,7 +13,7 @@ ${DESIRED_CAPABILITIES} =  name:Win 10 + Chrome 70, platform:Windows 10,browserN
 *** Test Cases ***
 User Should Be Able To Open URL
     [Documentation]  This test case is to open the site
-    [Tags]  Smoke
+    [Tags]  Smoke  Regression
     Open Given URL
 
 Validate The Web Page
